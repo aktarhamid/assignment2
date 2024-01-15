@@ -1,0 +1,393 @@
+
+
+
+/* Universal comments */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+   /* body comments */
+body{
+    width: 90%;
+    border: 2px solid tomato;
+    margin: 20px auto;
+}
+     
+ /* Navigation bar comments */
+
+ nav{
+    display: flex;
+    justify-content:space-between;
+ }
+ .nav-name{
+    display: flex;
+    padding: 20px;
+ }
+ .nav-name .nav-name-info{
+    padding: 10px;
+ }
+ .nav-info ul{
+    display: flex;
+ }
+ .nav-info ul li{
+    list-style: none;
+    color: #424247;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ .nav-name .nav-name-info span{
+    color: #FF5400;
+ }
+ .nav-info .nav-info-color{
+    color: #FF5400;
+    
+ }
+  /* Banner Section  Comments */
+  .banner{
+    text-align: center;
+    border: 3px solid rgb(12, 194, 245);
+    border-radius: 15px;
+    margin: 10px;
+    height: 100%; 
+    background-size: 100%;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+  }
+  .banner-info{
+    padding-top: 150px;
+  }
+  .banner-info h1{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+  }
+  .banner-info p{
+    width: 676px;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  #input-fild{
+    background-color: #FF5400;
+  }
+  .banner-input{
+     margin: 30px 10px; 
+     display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+  }
+  .banner-input .fram{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    text-align: center;
+    width: 174px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background: #FFF;
+    padding-bottom: 5px;
+     
+  }
+  .banner-input span{
+     padding: 12px;
+  }
+  .banner-input img{
+    margin: 10px;
+    padding-right: 10px;
+  }
+  .banner-input .color{
+    background-color: #FF5400;
+    border: 0;
+  }
+  .banner-input .banner-exceptional{
+    font-size: 16px;
+    width: 174px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    background: #FFF;
+    padding-right: 80px;
+  }
+    .fram-color{
+        display: flex;
+        justify-content: space-between;
+    background-color: #FF5400;
+    width: 174px;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+  }
+  .fram-color span{
+    padding-right: 25px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fram-color img{
+    padding-left: 10px;
+  }
+
+  /* Popular section comments  */
+
+  .popular{
+     border: 2px solid greenyellow;
+     display: flex;
+     height: 100%;
+     margin: 40px 10px;
+     gap: 10px;
+     padding-top: 20px;
+  }
+  .popular-info{
+    width: 50%;
+     padding: 40px; 
+     height: 550px;
+     border: 2px solid red;
+  }
+  .popular-img{
+    width: 50%;
+    height: 550px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+  }
+  .popular-img img{
+    width: 100%;
+  }
+  .popular-info h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .popular-info p, li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 5px;
+  }
+  .popular-info button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    background: #FF5400;
+    margin: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+  }
+   
+   /* Destination section comments  */
+
+    .destination{
+        border: 2px solid navy;
+        margin: 10px;
+        text-align: center;
+        height: auto;
+    }
+    .destination h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+    }
+    .destination p{
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; 
+        padding: 10px;
+    }
+    .destination-div1{
+        border: 2px solid yellowgreen;
+        margin: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .destination-div2{
+        border: 2px solid yellowgreen;
+        margin: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .destination-div3{
+        border: 2px solid yellowgreen;
+        margin: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .maldives{
+        border: 2px solid steelblue;
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        width: 50%;
+        width: 573px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 5.png);
+        border-radius: 16px;
+        
+    }
+    .indonesia{
+        border: 2px solid steelblue;
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        width: 50%;
+        width: 573px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 8.png);
+        border-radius: 16px;
+    }
+    .srilanka{
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        border: 2px solid steelblue;
+        width: 374px;
+        height: 286px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 6.png);
+        border-radius: 16px;
+    }
+    .north-america{
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        border: 2px solid steelblue;
+        width: 474px;
+        height: 286px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 7.png);
+        border-radius: 16px;
+    }
+    .kashmir{
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        border: 2px solid steelblue;
+        width: 274px;
+        height: 286px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 9.png);
+        border-radius: 16px;
+
+    }
+    .bangladesh  { 
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        border: 2px solid steelblue;
+        width: 473px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 11.png);
+        border-radius: 16px;
+    }
+    .bandorban{
+        font-weight: 800;
+        color: #FFF;
+        font-size: 28px;
+        border: 2px solid steelblue;
+        width: 673px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Images/Rectangle\ 10.png);
+    }
+  
+
+
+
+
+
+
+    /* Responsive part comments  */
+  
+  @media screen and (max-width: 600px) {
+    
+    /* Navigation bar comments */
+    nav{
+        flex-direction: column;
+    }
+    .nav-info ul li{
+        padding: 15px;
+    }
+     /* Banner Section  Comments */
+    .banner-input{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-info{
+        padding-top: 30px;
+      }
+      .banner-info h1{
+        font-size: 44px;
+      }
+      .banner-info p{
+        width: 376px;
+      }
+      .banner-exceptional .fram .fram-color{
+        width: 255px;
+      }
+      /* Popular section comments  */
+      .popular{
+        flex-direction: column;
+        height: 1200px;
+      }
+      .popular-info{
+       width: 80%;
+       height: 560px;
+      } 
+      .popular-img{
+        height: 520px;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .popular-img img{
+        width: 100%;
+      }
+      /* Destination section comments  */
+       
+      .destination{
+        height: auto;
+      }
+      .destination-div1{
+        flex-direction: column;
+        height: 100%;
+      }
+      .destination-div2{
+        flex-direction: column;
+        height: 100%;
+      }
+
+  }
+  
