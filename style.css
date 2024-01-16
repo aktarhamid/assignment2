@@ -13,7 +13,7 @@
    /* Main section comments */
 main{
     width: 90%;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin: 20px auto;
 }
      
@@ -50,10 +50,9 @@ main{
   /* Banner Section  Comments */
   .banner{
     text-align: center;
-    border: 3px solid rgb(12, 194, 245);
     border-radius: 15px;
     margin: 10px;
-    /* height: 100%;  */
+     height: 500px; 
     /* background-size: 100%; */
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
@@ -145,7 +144,6 @@ main{
   /* Popular section comments  */
 
   .popular{
-     border: 2px solid greenyellow;
      display: flex;
      /* height: 100%; */
      height: 100%;
@@ -159,14 +157,12 @@ main{
      /* height: 550px; */
      height: auto;
      height: 100%;
-     border: 2px solid red;
   }
   .popular-img{
     width: 50%;
     /* height: 550px;  */
     /* height: 100%; */
     height: auto;
-    border: 2px solid red;
     border-radius: 20px;
     background-repeat: no-repeat;
     /* margin-top: 70px; */
@@ -207,7 +203,6 @@ main{
    /* Destination section comments  */
 
     .destination{
-        border: 2px solid navy;
         margin: 10px;
         text-align: center;
     }
@@ -226,25 +221,21 @@ main{
         padding: 10px;
     }
     .destination-div1{
-        border: 2px solid yellowgreen;
         margin: 10px;
         display: flex;
         gap: 10px;
     }
     .destination-div2{
-        border: 2px solid yellowgreen;
         margin: 10px;
         display: flex;
         gap: 10px;
     }
     .destination-div3{
-        border: 2px solid yellowgreen;
         margin: 10px;
         display: flex;
         gap: 10px;
     }
     .maldives{
-        border: 2px solid steelblue;
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
@@ -259,7 +250,6 @@ main{
         
     }
     .indonesia{
-        border: 2px solid steelblue;
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
@@ -276,7 +266,6 @@ main{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 2px solid steelblue;
         width: 374px;
         height: 286px;
         display: flex;
@@ -289,7 +278,6 @@ main{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 2px solid steelblue;
         width: 474px;
         height: 286px;
         display: flex;
@@ -302,7 +290,6 @@ main{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 2px solid steelblue;
         width: 274px;
         height: 286px;
         display: flex;
@@ -316,7 +303,6 @@ main{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 2px solid steelblue;
         width: 473px;
         height: 300px;
         display: flex;
@@ -329,7 +315,6 @@ main{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 5px solid steelblue;
         width: 673px;
         height: 300px;
         display: flex;
@@ -358,10 +343,8 @@ main{
        }
        .choose-main{
         display: flex;
-        border: 2px solid sandybrown;
        }
        .hotels{
-        border: 2px solid darkgreen;
         margin: 20px;
         /* width: 573px; */
         width: 100%;
@@ -369,21 +352,18 @@ main{
         height: 100%;
         padding: 20px;
         border-radius: 16px;
-        border: 1px solid rgba(251, 181, 99, 0.20);
         background: rgba(251, 181, 99, 0.05);
        }
        .hotels img, h1, p{
         padding-bottom: 20px;
        }
        .service{
-        border: 2px solid darkgreen;
         margin: 20px;
         /* width: 573px; */
         width: 100%;
         height: 100%;
         padding: 20px;
         border-radius: 16px;
-        border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
        }
        .service img, h1, p{
@@ -393,7 +373,6 @@ main{
         width: 573px;
         height: 284px;
         border-radius: 16px;
-        border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
         /* text-align: center; */
         margin: 0 auto;
@@ -407,13 +386,11 @@ main{
        }
        /* Place section comments  */
          .place{
-            border: 2px solid chartreuse;
             display: flex;
             margin: 80px 0;
             gap: 5px;
          }
          .place-info{
-            border: 2px solid darkmagenta;
             width: 50%;
         }
         .place-info h1{
@@ -452,7 +429,6 @@ main{
 
         }
         .place-img{
-            border: 2px solid darkmagenta;
             width: 50%;
             margin-top: 20px;
         }
@@ -476,7 +452,6 @@ main{
        /* Newsletter section comments */
 
        .newsletter{
-        border: 2px solid darkmagenta;
         display: flex;
         margin-top: 40px;
         width: 100%;
@@ -496,7 +471,6 @@ main{
         padding-top: 50px;
        }
        .newsletter-img{
-         border: 2px solid coral;
          margin: 5px;
          border-radius: 16px;
          width: 55%;
@@ -625,6 +599,7 @@ main{
     .banner-input{
         flex-direction: column;
         gap: 20px;
+        margin-top: -10px;
         
     }
     .banner-info{
