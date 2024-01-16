@@ -405,7 +405,73 @@ main{
         margin: 10px 20px;
         padding-left: 20px;
        }
-       
+       /* Place section comments  */
+         .place{
+            border: 2px solid chartreuse;
+            display: flex;
+            margin: 80px 0;
+            gap: 5px;
+         }
+         .place-info{
+            border: 2px solid darkmagenta;
+            width: 50%;
+        }
+        .place-info h1{
+            /* width: 448px; */
+            width: 80%;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .place-info p{
+            /* width: 532px; */
+            width: 90%;
+            color: #5A5A5D;
+            font-size: 16px;
+            font-weight: 400;
+
+        }
+        .place-info ul li{
+            /* width: 518px; */
+            width: 90%;
+            color: #131318;
+            font-size: 16px;
+            font-weight: 700;
+            margin-left: 40px;
+        }
+        .place-info button{
+            width: 174px;
+            height: 52px;
+            border-radius: 8px;
+            background: #FF5400;
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 800;
+            margin-left: 40px;
+
+        }
+        .place-img{
+            border: 2px solid darkmagenta;
+            width: 50%;
+            margin-top: 20px;
+        }
+        .place-img h2{
+            position: absolute;
+             margin-top: 110px;
+             padding-left: 70px; 
+             color: white;
+             font-size: 24px;
+
+             
+        }
+        .place-img video{
+           width: 100%;
+           height: 100%;
+           background-image: url("Images/Group\ 40089.png");
+           border-radius: 16px;
+        }
+
+
        /* Newsletter section comments */
 
        .newsletter{
@@ -424,8 +490,6 @@ main{
         border: 1px solid coral;
         border-radius: 16px;
         margin: 5px;
-        /* width: 45%;
-        height: 100%; */
         width: 45%;
         height: 370px;
         padding-top: 50px;
@@ -672,6 +736,17 @@ main{
         width: 100%;
        }
        .newsletter-input{
+        width: 100%;
+       }
+
+       /* Place section comments  */
+       .place{
+        flex-direction: column;
+       }
+       .place-info{
+        width: 100%;
+       }
+       .place-img{
         width: 100%;
        }
       
