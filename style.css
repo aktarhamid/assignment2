@@ -54,7 +54,7 @@ body{
     border-radius: 15px;
     margin: 10px;
     height: 100%; 
-    background-size: 100%;
+    /* background-size: 100%; */
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
   }
@@ -143,6 +143,7 @@ body{
   .popular{
      border: 2px solid greenyellow;
      display: flex;
+     /* height: 100%; */
      height: 100%;
      margin: 40px 10px;
      gap: 10px;
@@ -151,18 +152,23 @@ body{
   .popular-info{
     width: 50%;
      padding: 40px; 
-     height: 550px;
+     /* height: 550px; */
+     height: auto;
+     height: 100%;
      border: 2px solid red;
   }
   .popular-img{
     width: 50%;
-    height: 550px;
+    /* height: 550px; */
+    height: 100%;
     border: 2px solid red;
     border-radius: 20px;
     background-repeat: no-repeat;
+    /* margin-top: 70px; */
   }
   .popular-img img{
     width: 100%;
+    height: 520px;
   }
   .popular-info h1{
     color: #131318;
@@ -195,7 +201,6 @@ body{
         border: 2px solid navy;
         margin: 10px;
         text-align: center;
-        height: auto;
     }
     .destination h1{
     color: #131318;
@@ -315,7 +320,7 @@ body{
         font-weight: 800;
         color: #FFF;
         font-size: 28px;
-        border: 2px solid steelblue;
+        border: 5px solid steelblue;
         width: 673px;
         height: 300px;
         display: flex;
@@ -365,10 +370,12 @@ body{
       }
       .popular-info{
        width: 80%;
-       height: 560px;
+       /* height: 560px; */
+       height: 100%;
       } 
       .popular-img{
-        height: 520px;
+        /* height: 500px; */
+        height: 100%;
         width: 100%;
         margin-top: 20px;
       }
@@ -379,15 +386,52 @@ body{
        
       .destination{
         height: auto;
+        margin-top: 100px;
       }
       .destination-div1{
         flex-direction: column;
         height: 100%;
+        width: 95%;
       }
       .destination-div2{
         flex-direction: column;
         height: 100%;
+        width: 95%;
+
       }
+      .destination-div3{
+        flex-direction: column;
+        height: 100%;
+        width: 95%;
+
+      }
+      .maldives{
+        width: 100%;
+      }
+      .indonesia{
+        width: 100%;
+      }
+      .srilanka{
+        width: 80%;
+        background-repeat: no-repeat;
+        margin: 0 40px;
+      }
+      .north-america{
+        width: 100%;
+      }
+      .kashmir{
+        margin: 0 80px;
+      }
+      .bangladesh{
+        width: 100%;
+      }
+      .bandorban{
+        width: 100%;
+      }
+      .bandorban img{
+        width: 100%;
+      }
+
 
   }
   
