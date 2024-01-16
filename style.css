@@ -421,7 +421,7 @@ main{
         margin: 5px;
         /* width: 45%;
         height: 100%; */
-        width: 602px;
+        width: 45%;
         height: 370px;
         padding-top: 50px;
        }
@@ -429,22 +429,22 @@ main{
          border: 2px solid coral;
          margin: 5px;
          border-radius: 16px;
-         width: 682px;
+         width: 55%;
          height: 422px;
          background-image: url("Images/Rectangle\ 8\ \(1\).png");
          background-repeat: no-repeat;
          /* background-size: 100%;  */
        }
          .newsletter-img-inerdiv{
-            width: 300px;
+            width: 300px; 
             height: 100px;
             transform: rotate(-19.628deg);
             flex-shrink: 0;
-            border-radius: 16px;
-            background: #FF5400; 
-            position: relative;
-            top: 275px;
-            left: 280px;
+            border-radius: 16px;  
+            background: #FF5400;
+            margin: 270px 0 0 300px;
+           
+           
         }
         .newsletter-img-inerdiv h4{
             color: #FFF;
@@ -473,7 +473,7 @@ main{
         font-weight: 400;
        }
        .newsletter-input input{
-        width: 393px;
+        width: 70%;
         height: 42px;
         border-radius: 8px;
         border: 0;
@@ -482,12 +482,55 @@ main{
         padding-left: 10px ;
        }
        .newsletter-input button{
-        width: 393px;
+        width: 70%;
         height: 42px;
+        font-family: 'Mulish', sans-serif;
         border-radius: 8px;
         border: 0;
         background: #FF5400;
-        margin: 10px;
+        margin: 15px;
+        color: white;
+        font-size: 18px;
+       }
+
+       /* Footer section comments  */
+
+       .travel{
+        width: 100%;
+        height: 502px;
+        flex-shrink: 0;
+        background: rgba(19, 19, 24, 0.05);
+        margin-top: 40px;
+       }
+       .thead{
+        display: flex;
+         justify-content: center;
+         padding-top: 80px;
+        /* align-items: center; */
+       }
+       .thead span{
+        color: #FF5400;
+        padding-left: 5px;
+       }
+       .travel p{
+        text-align: center;
+        color: #77777c;
+       }
+       .footer-logo{
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 80px;
+       }
+       hr{
+        width: 872px;
+       color: #e9edde;
+        margin: 0 auto;
+       }
+       .footer-date{
+        color: #484850;
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 60px;
        }
   
 
@@ -512,6 +555,7 @@ main{
     .banner-input{
         flex-direction: column;
         gap: 20px;
+        
     }
     .banner-info{
         padding-top: 30px;
@@ -615,5 +659,16 @@ main{
       .choose-footer{
         width: 100%;
       }
+      /* newsletter section commnets */
+       .newsletter{
+        flex-direction: column;
+       }
+       .newsletter-img{
+        width: 100%;
+       }
+       .newsletter-input{
+        width: 100%;
+       }
+      
     }
   
