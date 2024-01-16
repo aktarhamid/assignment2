@@ -53,7 +53,7 @@ main{
     border: 3px solid rgb(12, 194, 245);
     border-radius: 15px;
     margin: 10px;
-    height: 100%; 
+    /* height: 100%;  */
     /* background-size: 100%; */
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
@@ -442,6 +442,7 @@ main{
             width: 174px;
             height: 52px;
             border-radius: 8px;
+            border: 0;
             background: #FF5400;
             color: #FFF;
             text-align: center;
@@ -735,6 +736,11 @@ main{
        .newsletter-img{
         width: 100%;
        }
+    .newsletter-img-inerdiv{
+
+       margin: 270px 0 0 170px;
+
+    }
        .newsletter-input{
         width: 100%;
        }
